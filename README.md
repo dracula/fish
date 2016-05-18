@@ -1,8 +1,8 @@
 # Dracula for [X](http://link-to-x.com)
 
-![Dracula](https://cloud.githubusercontent.com/assets/398893/3528156/4d3d53a8-078c-11e4-8518-820d61886e7a.gif)
-
 > A dark theme for [X](http://link-to-x.com).
+
+![Screenshot](https://draculatheme.com/assets/img/screenshots/sublime.png)
 
 ## Install
 
