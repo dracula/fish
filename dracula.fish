@@ -23,3 +23,8 @@ set -g fish_color_quote          $yellow
 set -g fish_color_redirection    $foreground
 set -g fish_color_search_match   --background=$selection
 set -g fish_color_selection      --background=$selection
+
+set -g fish_pager_color_prefix      $green --bold
+set -g fish_pager_color_completion  $foreground
+set -g fish_pager_color_description $comment
+set -g fish_pager_color_progress    $foreground --background=$selection
