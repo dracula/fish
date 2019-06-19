@@ -2,7 +2,7 @@
 
 > A dark theme for [friendly interactive shell (fish)](http://fishshell.com)
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/fish.png)
+![Screenshot](https://user-images.githubusercontent.com/966706/50735407-824f7700-11a6-11e9-83be-3d2fbc9b66f8.png)
 
 ## Install
 
