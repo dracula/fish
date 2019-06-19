@@ -6,7 +6,8 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/fish](https://draculatheme.com/fish).
+Place `dracula.fish` in your `~/.config/fish/conf.d/` directory,
+then reload fish e.g. `exec fish`.
 
 ## Team
 
