@@ -1,13 +1,12 @@
-# Dracula for [fish](http://fishshell.com)
+# Dracula for [Fish](http://fishshell.com)
 
 > A dark theme for [friendly interactive shell (fish)](http://fishshell.com)
 
-![Screenshot](https://user-images.githubusercontent.com/966706/50735407-824f7700-11a6-11e9-83be-3d2fbc9b66f8.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
-Place `dracula.fish` in your `~/.config/fish/conf.d/` directory,
-then reload fish e.g. `exec fish`.
+All instructions can be found at [draculatheme.com/fish](https://draculatheme.com/fish).
 
 ## Team
 
