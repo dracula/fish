@@ -10,7 +10,7 @@ set -l cyan   8be9fd
 set -l pink   ff79c6
 set -l purple bd93f9
 
-set -g fish_color_autosuggestion $selection
+set -g fish_color_autosuggestion $comment
 set -g fish_color_command        $cyan
 set -g fish_color_comment        $comment
 set -g fish_color_end            $orange
