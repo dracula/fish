@@ -1,15 +1,15 @@
 # Dracula Color Palette
 #
-# foreground: f8f8f2
-# selection:  44475a
-# comment:    6272a4
-# red:        ff5555
-# orange:     ffb86c
-# yellow:     f1fa8c
-# green:      50fa7b
-# purple:     bd93f9
-# cyan:       8be9fd
-# pink:       ff79c6
+# Foreground: f8f8f2
+# Selection: 44475a
+# Comment: 6272a4
+# Red: ff5555
+# Orange: ffb86c
+# Yellow: f1fa8c
+# Green: 50fa7b
+# Purple: bd93f9
+# Cyan: 8be9fd
+# Pink: ff79c6
 
 # Syntax Highlighting Colors
 fish_color_normal f8f8f2
@@ -29,7 +29,6 @@ fish_color_autosuggestion 6272a4
 fish_color_cancel ff5555 --reverse
 fish_color_option ffb86c
 fish_color_history_current --bold
-fish_color_match --background=8be9fd
 fish_color_status ff5555
 fish_color_valid_path --underline
 
