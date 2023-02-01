@@ -3,20 +3,16 @@ function _dracula_themes_supported
     test "(( $major -eq 3 -a $minor -ge 4) -o $major -gt 3 )"
 end
 
-function _dracula_theme_deprecation_message
-    set bold (set_color --bold)
-    set normal (set_color normal)
-    set notice (string join "" (set_color cyan) "[NOTICE]" (set_color normal))
-
-    echo "$notice The Dracula for Fish theme now supports being set with$bold fish_config$normal. Using the theme via the$bold conf.d$normal script is deprecated and will be removed in the future. Find the setup instructions at https://draculatheme.com/fish."
+function _dracula_self_destruct
+    rm (status --current-filename)
 end
 
 function _dracula_install --on-event dracula_install
-    _dracula_themes_supported && _dracula_theme_deprecation_message
+    _dracula_themes_supported && _dracula_self_destruct
 end
 
 function _dracula_update --on-event dracula_update
-    _dracula_themes_supported && _dracula_theme_deprecation_message
+    _dracula_themes_supported && _dracula_self_destruct
 end
 
 # Dracula Color Palette
